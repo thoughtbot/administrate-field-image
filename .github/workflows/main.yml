@@ -14,3 +14,4 @@ jobs:
         run: bundle install
       - name: Run tests
         run: bundle exec rspec
+      - run: echo "Hello world!"
